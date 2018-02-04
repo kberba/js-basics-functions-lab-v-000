@@ -25,5 +25,5 @@ function distanceFromHqInFeet(num) {
 }
 
 function distanceTravelledInFeet() {
-  
+
 }
