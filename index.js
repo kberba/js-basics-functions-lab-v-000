@@ -26,5 +26,10 @@ function distanceFromHqInFeet(num) {
 
 function distanceTravelledInFeet(num1, num2) {
   feet = calculateVertical(num1, num2);
-  return feet;
+  if (feet < 1) {
+    feet = feet * -1;
+    return feet;
+  } else {
+    return feet;
+  }
 }
